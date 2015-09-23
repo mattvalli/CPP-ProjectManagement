@@ -1,0 +1,38 @@
+<Events>
+	<Event>
+		<id>0</id>
+		<name>V0 - Start Project</name>
+	</Event>
+	<Event>
+		<id>1</id>
+		<name>V1</name>
+	</Event>
+	<Event>
+		<id>2</id>
+		<name>V2</name>
+	</Event>
+	<Event>
+		<id>3</id>
+		<name>V3</name>
+	</Event>
+	<Event>
+		<id>4</id>
+		<name>V4</name>
+	</Event>
+	<Event>
+		<id>5</id>
+		<name>V5</name>
+	</Event>
+	<Event>
+		<id>6</id>
+		<name>V6</name>
+	</Event>
+	<Event>
+		<id>7</id>
+		<name>V7</name>
+	</Event>
+	<Event>
+		<id>8</id>
+		<name>V8 - End Project</name>
+	</Event>
+</Events>
