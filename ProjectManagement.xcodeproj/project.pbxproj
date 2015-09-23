@@ -7,8 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		841A45ED1AB368CF00332702 /* Event.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 841A45EB1AB368CF00332702 /* Event.cpp */; };
+		844608081AB7C99F00FFEB9A /* List.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 844608061AB7C99F00FFEB9A /* List.cpp */; };
+		8446080B1AB7CB4300FFEB9A /* LinkedNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 844608091AB7CB4300FFEB9A /* LinkedNode.cpp */; };
+		8446080E1AB88CFD00FFEB9A /* AdjacencyList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8446080C1AB88CFD00FFEB9A /* AdjacencyList.cpp */; };
+		844608111AB9397F00FFEB9A /* ProjectManagementViewController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8446080F1AB9397F00FFEB9A /* ProjectManagementViewController.cpp */; };
+		844608141AB94FA600FFEB9A /* TestUnit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 844608121AB94FA600FFEB9A /* TestUnit.cpp */; };
+		844608191ABA561200FFEB9A /* CommandLine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 844608171ABA561200FFEB9A /* CommandLine.cpp */; };
 		84E8A9C31AAE6A3E0064A495 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84E8A9C21AAE6A3E0064A495 /* main.cpp */; };
 		84E8A9C51AAE6A3E0064A495 /* ProjectManagement.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 84E8A9C41AAE6A3E0064A495 /* ProjectManagement.1 */; };
+		84E8A9CD1AAEDB840064A495 /* DirectAcyclicGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84E8A9CB1AAEDB840064A495 /* DirectAcyclicGraph.cpp */; };
+		84E8A9D01AAEDD5B0064A495 /* XMLReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84E8A9CE1AAEDD5B0064A495 /* XMLReader.cpp */; };
+		84E8A9D31AAEE01C0064A495 /* XMLNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84E8A9D11AAEE01C0064A495 /* XMLNode.cpp */; };
+		84E8A9D61AB12AA90064A495 /* Activity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84E8A9D41AB12AA90064A495 /* Activity.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,9 +36,29 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		841A45EB1AB368CF00332702 /* Event.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Event.cpp; sourceTree = "<group>"; };
+		841A45EC1AB368CF00332702 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		844608061AB7C99F00FFEB9A /* List.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = List.cpp; sourceTree = "<group>"; };
+		844608091AB7CB4300FFEB9A /* LinkedNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedNode.cpp; sourceTree = "<group>"; };
+		8446080C1AB88CFD00FFEB9A /* AdjacencyList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AdjacencyList.cpp; sourceTree = "<group>"; };
+		8446080D1AB88CFD00FFEB9A /* AdjacencyList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdjacencyList.h; sourceTree = "<group>"; };
+		8446080F1AB9397F00FFEB9A /* ProjectManagementViewController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ProjectManagementViewController.cpp; sourceTree = "<group>"; };
+		844608101AB9397F00FFEB9A /* ProjectManagementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectManagementViewController.h; sourceTree = "<group>"; };
+		844608121AB94FA600FFEB9A /* TestUnit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestUnit.cpp; sourceTree = "<group>"; };
+		844608131AB94FA600FFEB9A /* TestUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestUnit.h; sourceTree = "<group>"; };
+		844608171ABA561200FFEB9A /* CommandLine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CommandLine.cpp; sourceTree = "<group>"; };
+		844608181ABA561200FFEB9A /* CommandLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandLine.h; sourceTree = "<group>"; };
 		84E8A9BF1AAE6A3E0064A495 /* ProjectManagement */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProjectManagement; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E8A9C21AAE6A3E0064A495 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		84E8A9C41AAE6A3E0064A495 /* ProjectManagement.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ProjectManagement.1; sourceTree = "<group>"; };
+		84E8A9CB1AAEDB840064A495 /* DirectAcyclicGraph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DirectAcyclicGraph.cpp; sourceTree = "<group>"; };
+		84E8A9CC1AAEDB840064A495 /* DirectAcyclicGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectAcyclicGraph.h; sourceTree = "<group>"; };
+		84E8A9CE1AAEDD5B0064A495 /* XMLReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XMLReader.cpp; sourceTree = "<group>"; };
+		84E8A9CF1AAEDD5B0064A495 /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
+		84E8A9D11AAEE01C0064A495 /* XMLNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XMLNode.cpp; sourceTree = "<group>"; };
+		84E8A9D21AAEE01C0064A495 /* XMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLNode.h; sourceTree = "<group>"; };
+		84E8A9D41AB12AA90064A495 /* Activity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Activity.cpp; sourceTree = "<group>"; };
+		84E8A9D51AB12AA90064A495 /* Activity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Activity.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +93,26 @@
 			children = (
 				84E8A9C21AAE6A3E0064A495 /* main.cpp */,
 				84E8A9C41AAE6A3E0064A495 /* ProjectManagement.1 */,
+				84E8A9CB1AAEDB840064A495 /* DirectAcyclicGraph.cpp */,
+				84E8A9CC1AAEDB840064A495 /* DirectAcyclicGraph.h */,
+				84E8A9CE1AAEDD5B0064A495 /* XMLReader.cpp */,
+				84E8A9CF1AAEDD5B0064A495 /* XMLReader.h */,
+				84E8A9D11AAEE01C0064A495 /* XMLNode.cpp */,
+				84E8A9D21AAEE01C0064A495 /* XMLNode.h */,
+				84E8A9D41AB12AA90064A495 /* Activity.cpp */,
+				84E8A9D51AB12AA90064A495 /* Activity.h */,
+				841A45EB1AB368CF00332702 /* Event.cpp */,
+				841A45EC1AB368CF00332702 /* Event.h */,
+				844608061AB7C99F00FFEB9A /* List.cpp */,
+				844608091AB7CB4300FFEB9A /* LinkedNode.cpp */,
+				8446080C1AB88CFD00FFEB9A /* AdjacencyList.cpp */,
+				8446080D1AB88CFD00FFEB9A /* AdjacencyList.h */,
+				8446080F1AB9397F00FFEB9A /* ProjectManagementViewController.cpp */,
+				844608101AB9397F00FFEB9A /* ProjectManagementViewController.h */,
+				844608121AB94FA600FFEB9A /* TestUnit.cpp */,
+				844608131AB94FA600FFEB9A /* TestUnit.h */,
+				844608171ABA561200FFEB9A /* CommandLine.cpp */,
+				844608181ABA561200FFEB9A /* CommandLine.h */,
 			);
 			path = ProjectManagement;
 			sourceTree = "<group>";
@@ -117,7 +168,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				841A45ED1AB368CF00332702 /* Event.cpp in Sources */,
+				84E8A9CD1AAEDB840064A495 /* DirectAcyclicGraph.cpp in Sources */,
+				84E8A9D01AAEDD5B0064A495 /* XMLReader.cpp in Sources */,
+				84E8A9D61AB12AA90064A495 /* Activity.cpp in Sources */,
+				8446080B1AB7CB4300FFEB9A /* LinkedNode.cpp in Sources */,
 				84E8A9C31AAE6A3E0064A495 /* main.cpp in Sources */,
+				844608191ABA561200FFEB9A /* CommandLine.cpp in Sources */,
+				844608141AB94FA600FFEB9A /* TestUnit.cpp in Sources */,
+				8446080E1AB88CFD00FFEB9A /* AdjacencyList.cpp in Sources */,
+				844608111AB9397F00FFEB9A /* ProjectManagementViewController.cpp in Sources */,
+				84E8A9D31AAEE01C0064A495 /* XMLNode.cpp in Sources */,
+				844608081AB7C99F00FFEB9A /* List.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +287,7 @@
 				84E8A9CA1AAE6A3E0064A495 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
